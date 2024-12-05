@@ -5,6 +5,9 @@ class dad:
 class first_son(dad):
     def music(self):
         print("singing")
+class second_son(dad):
+    def song(self):
+        print("dance")
 
-first_son = first_son()
-first_son.action()
+second_son = second_son()
+second_son.song()
