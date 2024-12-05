@@ -5,4 +5,5 @@ class car:
     def _acc(self):
         print("speed increse")
 my_car =  car()
+my_car.open()
 my_car._acc()
