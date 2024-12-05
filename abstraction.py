@@ -13,7 +13,6 @@ class car(ABC):
     @abstractmethod
     def fm(self):
         pass
-    
 class swift(car):
 
     def moveFor(self):
